@@ -5,7 +5,7 @@ import numpy as np
 # Load model
 model = pickle.load(open("model.pkl", "rb"))
 
-st.title("🚗 Car Price Prediction")
+st.title(" Car Price Prediction")
 
 wheelbase = st.number_input("Wheelbase", min_value=50.0)
 horsepower = st.number_input("Horsepower", min_value=1)
